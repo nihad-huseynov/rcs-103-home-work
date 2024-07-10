@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>People Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>People Registration</h1>
+    <form id="personForm">
+      <input type="text" id="firstName" placeholder="First Name" required>
+      <input type="text" id="lastName" placeholder="Last Name" required>
+      <input type="number" id="age" placeholder="Age" required>
+      <button type="submit">Add Person</button>
+    </form>
+    <div id="controls">
+      <input type="number" id="getId" placeholder="Get Person by ID">
+      <button id="getPerson">Get Person</button>
+      <input type="number" id="deleteId" placeholder="Delete Person by ID">
+      <button id="deletePerson">Delete Person</button>
+    </div>
+    <div id="result"></div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
